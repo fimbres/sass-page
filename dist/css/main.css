@@ -280,6 +280,37 @@
   transform: totate(90deg) translate(-3rem, -5rem);
 }
 
+.contact {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #363636, rgba(54, 54, 54, 0.2)), url("../img/background.jpeg") center top;
+  background-size: cover;
+}
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.contact__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.contact__list .text-secondary {
+  margin-top: 0.5rem;
+}
+
+.social-icons {
+  position: initial;
+  margin-top: 2rem;
+}
+
 body {
   background: #363636;
   color: #fff;
