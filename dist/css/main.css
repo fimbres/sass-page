@@ -14,7 +14,7 @@
   background-size: cover;
 }
 .home__name {
-  font-size: 5rem;
+  font-size: 4rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
@@ -24,7 +24,7 @@
   font-weight: 700;
 }
 .home__role--name {
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-top: 2px solid #fff;
 }
 

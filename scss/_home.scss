@@ -14,7 +14,7 @@
     background-size: cover;
 
     &__name {
-        font-size: 5rem;
+        font-size: 4rem;
         padding-bottom: 1rem;
         margin-top: 1rem;
         margin-bottom: 0.5rem;
@@ -26,7 +26,7 @@
     }
 
     &__role--name{
-        font-size: 2rem;
+        font-size: 1.5rem;
         border-top: 2px solid set-text-color($primary-color);
     }
 }
